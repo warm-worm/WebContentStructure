@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Data Form</title>
+</head>
+<body>
+    <h1>Patient Data Form</h1>
+    <form>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+        
+        <label >Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="height">Height (cm):</label><br>
+        <input type="number" id="height" name="height"><br><br>
+        
+        <label for="weight">Weight (kg):</label><br>
+        <input type="number" id="weight" name="weight"><br><br>
+
+        <label for="birthdate">Date of birth:</label><br>
+        <input type="date" id="'birthdate" name="birthdate"><br><br>
+
+        <label for="place_of_birth">Place of birth:</label><br>
+        <input type="text" id="place_of_birth" name="place_of_birth"><br><br>
+
+        <label for="Illnesses">Illnesses:</label><br>
+        <input type="checkbox" id="illness1" name="illness1" value="none">
+        <label for="illness1">None</label><br>
+        <input type="checkbox" id="illness2" name="illness2" value="chronic">
+        <label for="illness2">Chronic Illness(es)</label><br>
+        <input type="checkbox" id="illness3" name="illness3" value="respiratory">
+        <label for="illness3">Respiratory Condition(s)</label><br>
+        <input type="checkbox" id="illness4" name="illness4" value="cardiovascular">
+        <label for="illness4">Cardiovascular Condition(s)</label><br><br>
+
+        <label for="Notes">Notes:</label><br>
+        <textarea id="notes" name="notes" rows="3"></textarea><br><br>
+
+
+        <button type="button">Ok</button>
+        <button type="button">Cancel</button>
+
+    </form>
+</body>
+</html>
